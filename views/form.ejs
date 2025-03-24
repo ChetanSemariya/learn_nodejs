@@ -1,0 +1,13 @@
+<%- include('header') %>
+<div class="row mb-4">
+  <div class="col">
+    <form action="/submit" method="POST">
+      Enter Name : <input type="text" name="myname" /> <br /><br />
+      <input type="submit" />
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="col bg-success"><%= message %></div>
+</div>
+<%- include('footer') %>
